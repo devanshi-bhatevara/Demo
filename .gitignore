@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DemoCrud/v17/.suo
+/DemoCrudApi/bin/Debug/net6.0/DemoCrudApi.dll
+/DemoCrudApi/bin/Debug/net6.0/DemoCrudApi.exe
+/DemoCrudApi/bin/Debug/net6.0/DemoCrudApi.dll
