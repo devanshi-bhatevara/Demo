@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "DemoCrudApi.Controllers.DemoController",
+    "Method": "AddDemo",
+    "RelativePath": "api/Demo/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "demoDto",
+        "Type": "DemoCrudApi.Dtos.AddDemoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoCrudApi.Controllers.DemoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Demo/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoCrudApi.Controllers.DemoController",
+    "Method": "GetDemoById",
+    "RelativePath": "api/Demo/GetDemoById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoCrudApi.Controllers.DemoController",
+    "Method": "UpdateDemo",
+    "RelativePath": "api/Demo/Modify",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "demoDto",
+        "Type": "DemoCrudApi.Dtos.DemoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoCrudApi.Controllers.DemoController",
+    "Method": "Remove",
+    "RelativePath": "api/Demo/Remove/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoCrudApi", "DemoCrudApi\DemoCrudApi.csproj", "{6B31160D-DF69-41B6-A660-4BA1D6E0DD1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCrudMVC", "DemoCrudMVC\DemoCrudMVC.csproj", "{0C40B307-0FE7-43C1-9CA2-FB464724EC9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B31160D-DF69-41B6-A660-4BA1D6E0DD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B31160D-DF69-41B6-A660-4BA1D6E0DD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B31160D-DF69-41B6-A660-4BA1D6E0DD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B31160D-DF69-41B6-A660-4BA1D6E0DD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C40B307-0FE7-43C1-9CA2-FB464724EC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C40B307-0FE7-43C1-9CA2-FB464724EC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C40B307-0FE7-43C1-9CA2-FB464724EC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C40B307-0FE7-43C1-9CA2-FB464724EC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A416EBEB-3643-43A2-A8EF-E7416EE7B1F3}
+	EndGlobalSection
+EndGlobal

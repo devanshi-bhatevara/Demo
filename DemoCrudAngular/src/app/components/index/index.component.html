@@ -1,0 +1,29 @@
+<h1>List</h1>
+
+
+  <table class="table">  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngIf="!demos">
+      <td colspan="3">Not found</td>
+          </tr>
+    <tr *ngFor="let demo of demos">
+   <td>{{ demo.id}}</td>
+      <td>{{demo.name}} </td>
+        <td>{{demo.age}}</td>
+
+      <td >
+        <button class="btn btn-outline-danger m-1" (click)="edit(demo.id)">Edit</button>
+        <button class="btn btn-outline-danger m-1" (click)="delete(demo.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<a class="btn btn-outline-info" routerLink='/add' routerLinkActive="router-link-active">Add</a>
+

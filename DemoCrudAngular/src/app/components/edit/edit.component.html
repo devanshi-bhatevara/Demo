@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row justify-content-center">
+            <form [formGroup]="demoForm" (ngSubmit)="OnSubmit()">
+                <div class="row mb-3">
+                        <label for="name" class="form-label">First Name: </label>
+                        <input type="text" class="form-control" id="name" formControlName="name" />
+                        <div *ngIf="formControl['name'].invalid && formControl['name'].touched">
+                            <small class="text-danger" *ngIf="formControl['name'].errors?.['required']">
+                                First name is required
+                            </small>
+                            <small class="text-danger" *ngIf="formControl['name'].errors?.['minlength']">
+                                First name must be at least 2 characters
+                            </small>
+                        </div>
+                        <label for="age" class="form-label">Age: </label>
+                        <input type="number" class="form-control" id="age" formControlName="age" />
+                        <div *ngIf="formControl['age'].invalid && formControl['age'].touched">
+                            <small class="text-danger" *ngIf="formControl['age'].errors?.['required']">
+                                Age is required
+                            </small>
+                            <small class="text-danger" *ngIf="formControl['age'].errors?.['min']">
+                                Age must be at least 18
+                                                        </small>
+                            <small class="text-danger" *ngIf="formControl['age'].errors?.['max']">
+                                Age can be maximum 100
+                                                        </small>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-12 d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary" [disabled]="demoForm.invalid">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
