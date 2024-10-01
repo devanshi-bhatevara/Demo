@@ -28,3 +28,7 @@ D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\refint\DemoCrudMVC.dll
 D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\DemoCrudMVC.pdb
 D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\DemoCrudMVC.genruntimeconfig.cache
 D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\ref\DemoCrudMVC.dll
+D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\DemoCrudMVC.sourcelink.json
+D:\PROJECTS\DemoCrud\DemoCrudMVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\DemoCrudMVC.csproj.AssemblyReference.cache
+D:\PROJECTS\DemoCrud\DemoCrudMVC\obj\Debug\net6.0\DemoCrud.5ADC6FC5.Up2Date
