@@ -7,4 +7,6 @@
 /DemoCrudApi/bin/Debug/net6.0/DemoCrudApi.exe
 /DemoCrudApi/bin/Debug/net6.0/DemoCrudApi.dll
 .vs/
+*.dll
+*.exe
 

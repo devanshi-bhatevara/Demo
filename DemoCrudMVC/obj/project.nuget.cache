@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C0Vi0wxvvJs=",
+  "dgSpecHash": "Vd/GD/YCxA4=",
   "success": true,
   "projectFilePath": "D:\\PROJECTS\\DemoCrud\\DemoCrudMVC\\DemoCrudMVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Devanshi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
